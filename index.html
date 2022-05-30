@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- Metadata -->
+      <meta charset="utf-8">
+      <meta name="description" content="Do/While Loops, with JavaScript">
+      <meta name="keywords" content="immaculata, ics2o">
+      <meta name="author" content="Marcus Wehbi">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Link for favicon -->
+      <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png" />
+      <link rel="manifest" href="./fav_index/site.webmanifest" />
+      <!-- Link for stylesheet -->
+      <link rel="stylesheet" href="./css/style.css">
+      <!-- Webpage title -->
+      <title>Factorial Display</title>
+   </head>
+   <body>
+      <!-- Link for javascript file -->
+      <script src="./js/script.js"></script>
+      <center>
+         <!-- Large header -->
+         <h1>Factorial Display</h1>
+         <!-- Table to format page (form, image, etc.) -->
+         <table>
+            <tr align = "center">
+               <td valign="top" align="left">
+                  <h3>
+                  This program will display the factorial of positive integers.
+                  <h3>
+                  <!-- Form to retrieve information (Users positive integer of choice) -->
+                  <form action="javascript:displayFactorial()">						
+                     <label for="pos-int">Number 1:</label>
+                     <input type="number" step="1" min="0" id="pos-int"><br><br>
+                     <br><br>
+                     <input type="submit" value="Display Factorial">
+                  </form>
+               </td>
+               <!-- Factorial image -->
+               <td valign="top" align="left">
+                  <img src="./images/fon.jpg" alt="Factorial" width="50%">
+               </td>
+            </tr>
+         </table>
+         <!-- Create a space where the user information will be displayed -->
+         <div id="display-results">
+         </div>
+      </center>
+   </body>
+</html>
